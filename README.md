@@ -115,7 +115,7 @@ python3 -m http.server 8000
 
 # Option 3: Direct download
 # Click "Code" → "Download ZIP" on GitHub → extract → open index.html
-
+```
 
 ###⚠️ Disclaimer
 
