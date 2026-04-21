@@ -8,14 +8,11 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <div id="grid-bg"></div>
   <div id="blob1"></div>
   <div id="blob2"></div>
 
   <div class="wrap">
-
-    <!-- ══ HEADER ══ -->
     <header>
       <div class="hdr-row">
         <div>
@@ -29,7 +26,6 @@
       </div>
     </header>
 
-    <!-- ══ STATS BAR ══ -->
     <div class="stats" id="stats">
       <div class="stat"><span class="n c" id="s-total">0</span><span>TOTAL CHECKS</span></div>
       <div class="stat"><span class="n g" id="s-done">0</span><span>CHECKED</span></div>
@@ -40,7 +36,6 @@
       <div class="stat"><span class="n p" id="s-pct">0%</span><span>PROGRESS</span></div>
     </div>
 
-    <!-- ══ TOOLBAR ══ -->
     <div class="toolbar">
       <input class="search" id="search" placeholder="$ grep -R \"vuln\" checklist/" autocomplete="off" spellcheck="false">
       <button class="fbtn active" data-f="all">ALL</button>
@@ -51,14 +46,12 @@
       <button class="fbtn" data-f="done">DONE</button>
       <button class="fbtn" data-f="undone">TODO</button>
       <button class="fbtn" id="reset-btn">RESET ALL</button>
-      <input type="file" id="import-file" accept=".json,application/json,.txt,.md" hidden>
       <div class="progress-wrap">
         <div class="pbar"><div class="pbar-fill" id="main-pbar" style="width:0%"></div></div>
         <span id="pct-txt">0%</span>
       </div>
     </div>
 
-    <!-- ══ DYNAMIC CONTENT ══ -->
     <div id="content"></div>
     <div id="empty">
       <div class="ico">◈</div>
@@ -66,8 +59,7 @@
     </div>
 
     <div class="copyright">© 2026 0xS3id0x. All rights reserved.</div>
-
-  </div><!-- /wrap -->
+  </div>
 
   <script src="app.js"></script>
 </body>
