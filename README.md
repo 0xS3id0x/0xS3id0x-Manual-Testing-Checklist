@@ -3,7 +3,6 @@
 > Interactive web app for bug bounty hunters & pentesters  
 > 🔗 [Live Demo](https://0xS3id0x.github.io/bug-hunter-checklist) • 📦 [Download ZIP](../../archive/refs/heads/main.zip)
 
-![Demo Preview](https://via.placeholder.com/1200x400/040c10/00d4ff?text=0xS3id0x+Checklist+v1.1)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 [![Last Updated](https://img.shields.io/github/last-commit/0xS3id0x/bug-hunter-checklist?label=Last%20Update)](../../commits/main)
