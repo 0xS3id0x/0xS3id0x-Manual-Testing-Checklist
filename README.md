@@ -116,17 +116,17 @@ python3 -m http.server 8000
 # Option 3: Direct download
 # Click "Code" → "Download ZIP" on GitHub → extract → open index.html
 ```
-
+---
 ##⚠️ Disclaimer
 
 This project is intended for educational purposes and authorized security testing only.
 Do not use this checklist against systems without proper permission.
-
+---
 ##🤝 Contributing
 
 Contributions are welcome.
 If you have ideas, improvements, or additional checks, feel free to open an issue or submit a pull request.
-
+---
 ##⭐ Support
 
 If you find this project useful:
@@ -135,7 +135,7 @@ Give it a ⭐ on GitHub
 Share it with other hunters
 Use it in your workflow
 
-
+---
 
 This checklist is built to be fast, practical, and distraction-free during real bug bounty sessions.
 It is designed to support your workflow — not replace your thinking.
