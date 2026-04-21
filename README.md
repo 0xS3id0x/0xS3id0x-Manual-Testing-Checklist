@@ -98,7 +98,7 @@
 ## 🚀 Quick Start
 
 ### 🌐 Online (No Install)
-1. Visit: [Live Demo](https://0xS3id0x.github.io/bug-hunter-checklist)
+1. Visit: [Live Demo](https://0xS3id0x.github.io/0xS3id0x-Manual-Testing-Checklist)
 2. Start hunting immediately — progress auto-saves in your browser
 3. No account, no tracking, no external requests
 
