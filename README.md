@@ -97,12 +97,12 @@
 
 ## 🚀 Quick Start
 
-### 🌐 Online (No Install)
+## 🌐 Online (No Install)
 1. Visit: [Live Demo](https://0xS3id0x.github.io/0xS3id0x-Manual-Testing-Checklist)
 2. Start hunting immediately — progress auto-saves in your browser
 3. No account, no tracking, no external requests
 
-### 💻 Run Locally
+## 💻 Run Locally
 ```bash
 # Option 1: Clone via Git
 git clone https://github.com/0xS3id0x/bug-hunter-checklist.git
@@ -117,17 +117,17 @@ python3 -m http.server 8000
 # Click "Code" → "Download ZIP" on GitHub → extract → open index.html
 ```
 
-###⚠️ Disclaimer
+##⚠️ Disclaimer
 
 This project is intended for educational purposes and authorized security testing only.
 Do not use this checklist against systems without proper permission.
 
-###🤝 Contributing
+##🤝 Contributing
 
 Contributions are welcome.
 If you have ideas, improvements, or additional checks, feel free to open an issue or submit a pull request.
 
-###⭐ Support
+##⭐ Support
 
 If you find this project useful:
 
