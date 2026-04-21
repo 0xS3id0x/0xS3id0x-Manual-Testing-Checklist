@@ -117,7 +117,8 @@ python3 -m http.server 8000
 # Click "Code" → "Download ZIP" on GitHub → extract → open index.html
 
 ---
-📜 License
+
+###📜 License
 Distributed under the MIT License. See LICENSE for details.
 
 🎯 Happy Hunting!
