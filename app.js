@@ -311,7 +311,7 @@ const DATA = [
   },
   // ── RACE CONDITION TESTING ──────────────────────────────────
   {
-    id: "race", title: "RACE CONDITIONS CHECKLIST", color: "var(--purple)",
+    id: "race", title: "RACE CONDITIONS CHECKLIST", color: "var(--orange)",
     items: [
       { id:"RC01", title:"Double Spend / Double Redeem in Financial Actions", sev:"critical", tags:["RACE","PAYMENT"], ref:"H1 Race Condition", body:"Fire simultaneous checkout, wallet debit, coupon redeem, and refund requests. Check for duplicated balance updates and missing idempotency keys." },
       { id:"RC02", title:"Inventory Oversell with Concurrent Checkout", sev:"high", tags:["RACE","INVENTORY"], ref:"Business Logic Race", body:"Purchase the final stock item from multiple sessions at once. Confirm atomic stock decrement and reservation expiration behavior." },
@@ -319,8 +319,16 @@ const DATA = [
       { id:"RC04", title:"Role/Permission Update Race Window", sev:"high", tags:["RACE","PRIV-ESC"], ref:"Access Control Timing Bugs", body:"Race privileged actions while role downgrade, session revocation, or account disable is in progress. Ensure authorization checks happen at execution time." },
     ]
   },
+// ── Third Party Recon Tools ─────────────────────────────────────
+{
+  id: "thirdpartyrecon", title: "THIRD PARTY RECON TOOLS CHECKLIST", color: "var(--yellow)",
+  items: [
+    { id:"REC01", title:"JSLuice", sev:"high", tags:["RECON","TOOL"], ref:"JS Analysis", body:"Finding Secrets in JavaScript Files." },
+    { id:"REC02", title:"JSecret", sev:"high", tags:["RECON","TOOL"], ref:"JS Analysis", body:"Finding Secrets in JavaScript Files." },
+    { id:"REC03", title:"Orwa Script", sev:"high", tags:["RECON","TOOL"], ref:"Hidden Endpoints", body:"virustotalx for endpoints." },
+  ]
+}, 
 ]; // end DATA
-
 /* ════════════════════════════════════════════════════════════
    STATE
 ════════════════════════════════════════════════════════════ */
